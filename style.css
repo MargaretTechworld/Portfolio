@@ -6,31 +6,24 @@
 }
 
 main {
-  width: 375px;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  min-width: 375px;
-  padding: 24px  24px;
+  width: 100%;
 }
 
 section {
   background-image: url(./images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
-  min-height: 100vh;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 24px 24px;
 }
 
-.first-heading {
+.first-heading h1 {
+  font-weight: 700px;
+  font-size: 3rem;
+  color: #6070ff;
   margin-top: 60px;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #091e42;
 }
 
 section div p {
@@ -42,6 +35,8 @@ section div p {
 
 .social {
   margin-right: 20px;
+  list-style: none;
+  display: inline;
 }
 
 .connect {
@@ -56,4 +51,14 @@ a {
   text-decoration: none;
   font-size: 2rem;
   font-weight: bold;
+  color: #6070ff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  min-width: 375px;
+  padding-left: 24px;
+  padding-right: 24px;
+  align-items: baseline;
 }
