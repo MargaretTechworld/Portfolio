@@ -9,7 +9,7 @@ main {
   width: 100%;
 }
 
-section {
+.intro {
   background-image: url(./images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,7 +26,7 @@ section {
   margin-top: 60px;
 }
 
-section div p {
+.intro div p {
   font-size: 1rem;
   color: #344563;
   width: 90%;
@@ -47,7 +47,7 @@ section div p {
   color: #7f8cff;
 }
 
-a {
+.logo {
   text-decoration: none;
   font-size: 2rem;
   font-weight: bold;
@@ -61,4 +61,117 @@ a {
   padding-left: 24px;
   padding-right: 24px;
   align-items: baseline;
+}
+
+.projects {
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.works-title {
+  color: #172b4d;
+  font-weight: 700px;
+  font-size: 3rem;
+  font-style: normal;
+}
+
+.canopy {
+  color: #344563;
+  font-weight: 600;
+}
+
+.dev {
+  color: #7a869a;
+  font-weight: 600;
+}
+
+.project-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 295px;
+  font-weight: 400px;
+  color: #344563;
+  font-size: 1rem;
+}
+
+.languages {
+  border: none;
+  margin-right: 5px;
+  color: #6070ff;
+  font-size: 1rem;
+  font-weight: 500;
+  background: #ebebff;
+  border-radius: 8px;
+  width: 57px;
+  height: 24px;
+}
+
+.see-project {
+  background: #fff;
+  border: 1px solid #396df2;
+  border-radius: 16px;
+  color: #396df2;
+  font-size: 1.2rem;
+  margin-top: 16px;
+  padding: 10px;
+  margin-bottom: 60px;
+  font-weight: 500px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 24px;
+}
+
+.about-lang {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  padding-left: 24px;
+  background-color: #f7f7f9;
+}
+
+.about-lang a {
+  text-decoration: none;
+  color: #253858;
+  font-weight: 500px;
+}
+
+.about-lang img {
+  width: 100px;
+  height: 100px;
+}
+
+.works {
+  display: grid;
+  grid-template-columns: 375px;
+}
+
+.union-div {
+  display: flex;
+  gap: 70px;
+  margin-bottom: 60px;
+  align-items: baseline;
+}
+
+.union-div h2 {
+  font-size: 1.9rem;
+}
+
+.union-div img {
+  height: 12px;
+}
+
+.union2 {
+  min-height: 25px;
+}
+
+.space {
+  margin-left: 110px;
 }
