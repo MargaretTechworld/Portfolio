@@ -28,7 +28,7 @@
 
 
 
-# 📖 HELLO MICROVERSE PROJECT <a name="about-project"></a>
+# 📖 Portfolio Project <a name="about-project"></a>
 
 > My Second Microverse Project
 
@@ -44,14 +44,6 @@
 - **LINTERS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## 🚀 Live Demo <a name="live-demo"></a>
-- Coming Soon .......
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
