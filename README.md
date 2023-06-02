@@ -14,7 +14,6 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
