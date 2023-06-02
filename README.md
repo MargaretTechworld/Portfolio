@@ -30,7 +30,7 @@
 
 # 📖 Portfolio Project <a name="about-project"></a>
 
-> My Second Microverse Project
+> My Second Microverse Project. Setup and Mobile first
 
     Portfolio : Setup and Mobile first
 
