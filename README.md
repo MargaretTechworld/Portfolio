@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b></b></h3>
 
 </div>
 
@@ -22,9 +22,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-
 - [📝 License](#license)
-
 
 
 
