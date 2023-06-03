@@ -7,9 +7,26 @@
 
 main {
   width: 100%;
+  background: #e5e5e5;
 }
 
-section {
+.nav {
+  display: flex;
+  justify-content: space-between;
+  min-width: 375px;
+  padding-left: 24px;
+  padding-right: 24px;
+  align-items: baseline;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6070ff;
+}
+
+.intro {
   background-image: url(./images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,6 +36,13 @@ section {
   padding: 24px 24px;
 }
 
+.description > p {
+  font-size: 1rem;
+  color: #344563;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
 .first-heading h1 {
   font-weight: 700px;
   font-size: 3rem;
@@ -26,17 +50,11 @@ section {
   margin-top: 60px;
 }
 
-section div p {
-  font-size: 1rem;
-  color: #344563;
-  width: 90%;
-  margin-bottom: 10px;
-}
-
-.social {
-  margin-right: 20px;
-  list-style: none;
-  display: inline;
+.first-heading h2 {
+  font-weight: 700px;
+  font-size: 40px;
+  color: #172b4d;
+  margin-top: 60px;
 }
 
 .connect {
@@ -47,18 +65,198 @@ section div p {
   color: #7f8cff;
 }
 
-a {
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #6070ff;
+.social {
+  margin-right: 20px;
+  list-style: none;
+  display: inline;
 }
 
-.nav {
+.social-a {
+  text-decoration: none;
+}
+
+.works {
+  display: grid;
+  grid-template-columns: 327px;
+}
+
+.projects {
   display: flex;
-  justify-content: space-between;
-  min-width: 375px;
-  padding-left: 24px;
-  padding-right: 24px;
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 16px;
+  width: 327px;
+  height: 640px;
+  background: #ffff;
+  margin: 114px 24px 114px 24px;
+}
+
+.project-description {
+  margin: 0;
+  margin-bottom: 12px;
+  font-weight: 400px;
+  color: #344563;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.project-description p {
+  font-size: 15px;
+}
+
+.projects > p {
+  background: #ffff;
+  margin: 0;
+}
+
+.projects > img {
+  width: 295px;
+  height: 220px;
+}
+
+.works-title {
+  color: #172b4d;
+  font-weight: 700px;
+  font-size: 40px;
+  font-style: normal;
+  background: #ffff;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  line-height: 44px;
+}
+
+.canopy {
+  color: #344563;
+  font-weight: 600;
+  background: #ffff;
+}
+
+.Bullet-point {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.dev {
+  color: #7a869a;
+  font-weight: 600;
+  background: #ffff;
+  font-size: 13px;
+}
+
+.white-background {
+  background: #ffff;
+}
+
+.languages {
+  border: none;
+  margin-right: 5px;
+  color: #6070ff;
+  font-size: 1rem;
+  font-weight: 500;
+  background: #ebebff;
+  border-radius: 8px;
+  height: 24px;
+  list-style: none;
+  display: inline;
+  padding: 4px 12px 4px 12px;
+}
+
+.see-project {
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  color: #396df2;
+  font-size: 17px;
+  padding: 12px;
+  font-weight: 500px;
+  line-height: 24px;
+  margin-top: 40px;
+  height: 48px;
+  background-color: #ffff;
+}
+
+.see-project:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 24px;
+  margin-top: 40px;
+  padding-bottom: 176px;
+  width: 375px;
+  border-top-right-radius: 84px;
+}
+
+.about-lang {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 36px;
+  background: #f7f7f9;
+  width: 303px;
+  height: 66.7px;
+  padding-left: 12px;
+  border-radius: 8px;
+}
+
+.h-rule {
+  margin-top: 23px;
+  height: 1px;
+  width: 327;
+  border: 1px solid #dfe1e6;
+}
+
+.about-lang a {
+  text-decoration: none;
+  color: #253858;
+  font-weight: 500px;
+  font-size: 15px;
+  height: 24px;
+  background: #f7f7f9;
+}
+
+.about-lang img {
+  width: 48px;
+  height: 48px;
+  background: #f7f7f9;
+}
+
+.union {
+  height: 30px;
+  width: 80px;
+}
+
+.union2 {
+  height: 12px;
+  width: 6px;
+  margin-left: 50px;
+}
+
+.union1 {
+  height: 6px;
+  width: 12px;
+}
+
+.union-div {
+  display: flex;
   align-items: baseline;
+  gap: 70px;
+  list-style: none;
+  margin-top: 23px;
+}
+
+.union-header {
+  font-size: 20px;
+}
+
+.union-list {
+  list-style: none;
+}
+
+.space {
+  margin-left: 120px;
 }
