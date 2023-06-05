@@ -157,10 +157,20 @@ main {
   background: #ebebff;
   border-radius: 8px;
   height: 24px;
+  display: flex;
   list-style: none;
   padding: 4px 12px 4px 12px;
 }
-
+.languages1{
+  float: left;
+}
+.languages2{
+  float: left;
+  margin-left: 5%;
+}
+.languages3{
+  float: right;
+}
 .see-project {
   border: 1px solid #396df2;
   border-radius: 8px;
