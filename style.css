@@ -264,6 +264,8 @@ main {
 .contact-form {
   width: 375px;
   background: #ffff;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-form-div {
@@ -286,7 +288,8 @@ main {
 
 .contact-form-title {
   color: white;
-  font-size: 47px;
+  font-size: 40px;
+  font-weight: 700px;
   text-align: center;
 }
 
@@ -315,7 +318,7 @@ main {
 .contact-form-input::placeholder {
   color: #172b4d;
   font-size: 17px;
-  font-weight: bold;
+  font-weight: 400px;
 }
 
 textarea {
