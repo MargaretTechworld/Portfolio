@@ -68,6 +68,8 @@
 - **Display the list of my projects**
 - **Display the list of my Tech Stack**
 - **Display the list of my social media links**
+- **Display information about me**
+- **Display a contact form to reach out to me**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +157,6 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add contact form**
 - [ ] **Display projects dynamically**
 - [ ] **Make website responsive**
 
@@ -175,7 +176,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project support by giving a star 
+If you like this project support by giving a star ⭐️ ⭐️ ⭐️ ⭐️ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,7 +184,7 @@ If you like this project support by giving a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse team.
+I would like to thank the Microverse team and my coding partner Fatuma Hussein for collaborating with me to do the contact form section.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
