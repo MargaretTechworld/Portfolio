@@ -48,7 +48,6 @@ main {
   font-size: 1rem;
   color: #344563;
   width: 90%;
-  margin-bottom: 10px;
 }
 
 .first-heading h1 {
@@ -398,7 +397,7 @@ textarea {
     font-weight: 500;
     font-style: normal;
   }
-
+ 
   .logo {
     font-size: 18px;
     margin-left: 85px;
@@ -407,11 +406,12 @@ textarea {
   .intro {
     background-image: url(./images/desktop-img.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     width: 100%;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    padding-left: 10%;
     background-color: #ffff;
   }
 
@@ -419,8 +419,8 @@ textarea {
     margin-left: 70px;
   }
 
-  .align-connect {
-    margin-top: 60px;
+.connect {
+   margin-top: 0;
   }
 
   .first-heading h1 {
@@ -437,62 +437,81 @@ textarea {
     font-size: 20px;
     font-weight: 400;
     color: #344563;
-    width: 100%;
-    height: 98px;
-    line-height: 28px;
+    width: 80%;
+    margin-bottom: 2%;
   }
 
   /* projects */
   .projects {
     flex-direction: row;
+    justify-content: center;
     gap: 30px;
-    width: 230%;
+    width: 83%;
     height: 400px;
-    margin-left: 15px;
     column-gap: 42px;
     background: #ffff;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
+    overflow-wrap: break-word;
   }
 
   .works {
     width: 100%;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+    place-items: center;
   }
 
   .projects > div > img {
-    width: 300px;
+    width: 38%;
+    position: absolute;
     height: 350px;
+    left: 10%;
     border-radius: 8px;
+  }
+  .Project-div2{
+    position: absolute;
+    left: 53%;
+    width: 500px;
   }
 
   .project-description {
     width: 90%;
     height: 70px;
+    display: flex;
+    position: relative;
+  
   }
 
   .about {
     width: 100%;
     flex-direction: row;
-    grid-column: 15px;
     align-items: baseline;
-  }
-
-  .about-second-div {
     margin: 0;
   }
 
+  .about-second-div {
+    width: 50%;
+  }
+
   .project-description > p {
-    width: 390px;
+    width: 100%;
     font-size: 16px;
   }
 
   .about .description > p {
-    width: 350px;
+    width: 90%;
     font-size: 16px;
   }
 
   .new-div {
     width: 50%;
+    margin-left: 10%;
+  }
+  .h-rule{
+    width: 80%;
   }
 
   .another-list {
@@ -501,7 +520,8 @@ textarea {
   }
 
   .union-header {
-    margin-right: 60px;
+    margin-right: 200px;
+    width: 800px
   }
 
   .union-div {
@@ -509,7 +529,7 @@ textarea {
   }
 
   .union3 {
-    margin-right: 132px;
+   margin-right: 270px;
   }
 
   .union2 {
@@ -521,49 +541,48 @@ textarea {
   .union1 {
     width: 20px;
     height: 12px;
+  
   }
 
   .about-lang {
     flex-direction: column;
     font-size: 16px;
-    width: 90px;
+    justify-content: center;
+    width: 15%;
+    height: 9990%;
     display: inline-block;
-    margin-top: 20px;
+ flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10%;
+    padding: 1%;
+    background:  #f7f7f9;;
   }
 
   .about .description {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
   }
 
   .contact-form {
     width: 100%;
+    flex-direction: row;
   }
 
-  .contact-form-div {
-    background-size: 100%;
-  }
 
   .contact-description {
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 50%;
     font-size: 20px;
-  }
 
-  .contact-form-title {
-    font-style: 40px;
-  }
-
-  .contact-form-input {
-    margin-left: 180px;
-  }
-
-  textarea {
-    margin-left: 180px;
   }
 
   .contact-button {
-    margin-left: 180px;
+   margin-left: 25%;
+  }
+  .contact-form-ls{
+   width: 26%;
+   margin-left: auto;
+   margin-right: auto;
   }
 
   .rubby {
@@ -598,6 +617,7 @@ textarea {
 
   .languages {
     font-size: 12px;
+    margin-top: 30px;
   }
 
   .works-title {
@@ -628,9 +648,6 @@ textarea {
     display: block;
   }
 
-  .desktop-button {
-    background: #396df2;
-    color: #f7f7f9;
-    font-size: 17px;
-  }
+  
+
 }
