@@ -397,7 +397,7 @@ textarea {
     font-weight: 500;
     font-style: normal;
   }
- 
+
   .logo {
     font-size: 18px;
     margin-left: 85px;
@@ -419,8 +419,8 @@ textarea {
     margin-left: 70px;
   }
 
-.connect {
-   margin-top: 0;
+  .connect {
+    margin-top: 0;
   }
 
   .first-heading h1 {
@@ -471,7 +471,8 @@ textarea {
     left: 10%;
     border-radius: 8px;
   }
-  .Project-div2{
+
+  .Project-div2 {
     position: absolute;
     left: 53%;
     width: 500px;
@@ -482,7 +483,6 @@ textarea {
     height: 70px;
     display: flex;
     position: relative;
-  
   }
 
   .about {
@@ -510,7 +510,8 @@ textarea {
     width: 50%;
     margin-left: 10%;
   }
-  .h-rule{
+
+  .h-rule {
     width: 80%;
   }
 
@@ -521,7 +522,7 @@ textarea {
 
   .union-header {
     margin-right: 200px;
-    width: 800px
+    width: 800px;
   }
 
   .union-div {
@@ -529,7 +530,7 @@ textarea {
   }
 
   .union3 {
-   margin-right: 270px;
+    margin-right: 270px;
   }
 
   .union2 {
@@ -541,7 +542,6 @@ textarea {
   .union1 {
     width: 20px;
     height: 12px;
-  
   }
 
   .about-lang {
@@ -551,11 +551,10 @@ textarea {
     width: 15%;
     height: 9990%;
     display: inline-block;
- flex-direction: column;
     margin-top: 10px;
     margin-right: 10%;
     padding: 1%;
-    background:  #f7f7f9;;
+    background: #f7f7f9;
   }
 
   .about .description {
@@ -567,22 +566,21 @@ textarea {
     flex-direction: row;
   }
 
-
   .contact-description {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     font-size: 20px;
-
   }
 
   .contact-button {
-   margin-left: 25%;
+    margin-left: 25%;
   }
-  .contact-form-ls{
-   width: 26%;
-   margin-left: auto;
-   margin-right: auto;
+
+  .contact-form-ls {
+    width: 26%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .rubby {
@@ -647,7 +645,4 @@ textarea {
   .desktoph2 {
     display: block;
   }
-
-  
-
 }
