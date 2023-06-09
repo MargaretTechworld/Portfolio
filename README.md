@@ -146,9 +146,9 @@ N/A
 
 👤 **Author1**
 
-- GitHub: [@MargaretTechworld](https://github.com/githubhandle)
-- Twitter: [@KojoMargaret](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/margaret-kojo-musa-759b8026a/e)
+- GitHub: [@MargaretTechworld](https://github.com/MargaretTechworld)
+- Twitter: [@KojoMargaret](https://twitter.com/KojoMargaret)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/margaret-kojo-musa-759b8026a/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
