@@ -33,7 +33,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-**Portfolio** Is a website that tells about me and desplay some of my projects
+**Portfolio** Is a website that tells about me, display some of my projects and a contact form.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -157,8 +157,8 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Display projects dynamically**
-- [ ] **Make website responsive**
+- [ ] **Add Animation**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
