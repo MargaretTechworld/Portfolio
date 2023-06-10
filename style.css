@@ -567,6 +567,13 @@ textarea {
     width: 100%;
     flex-direction: row;
   }
+  .contact-form-div{
+    background-image: url(./images/contact-pic.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-top-left-radius: 10%;
+
+  }
 
   .contact-description {
     margin-left: auto;
