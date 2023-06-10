@@ -33,7 +33,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-**Portfolio** Is a website that tells about me and desplay some of my projects
+**Portfolio** Is a website that tells about me, display some of my projects and a contact form.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -146,9 +146,9 @@ N/A
 
 👤 **Author1**
 
-- GitHub: [@MargaretTechworld](https://github.com/githubhandle)
-- Twitter: [@KojoMargaret](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/margaret-kojo-musa-759b8026a/e)
+- GitHub: [@MargaretTechworld](https://github.com/MargaretTechworld)
+- Twitter: [@KojoMargaret](https://twitter.com/KojoMargaret)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/margaret-kojo-musa-759b8026a/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -157,8 +157,8 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Display projects dynamically**
-- [ ] **Make website responsive**
+- [ ] **Add Animation**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
