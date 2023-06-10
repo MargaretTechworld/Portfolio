@@ -202,9 +202,9 @@ main {
   margin-top: 40px;
   height: 48px;
   background-color: #ffff;
- transition-property: color;
- transition-timing-function: ease-in-out;
- transition-duration: 0.3s;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 .see-project:hover {
@@ -583,10 +583,11 @@ textarea {
     margin-right: auto;
     width: 50%;
     font-size: 20px;
-    transition-property:transform ;
+    transition-property: transform;
     transition-duration: 1s;
   }
-  .contact-description:hover{
+
+  .contact-description:hover {
     transform: translate(42px, 18px);
   }
 
@@ -624,7 +625,8 @@ textarea {
     transition-property: transform;
     transition-duration: 1s;
   }
-  .desktop1:hover{
+
+  .desktop1:hover {
     transform: scale(1.2);
   }
 
