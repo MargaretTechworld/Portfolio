@@ -573,6 +573,7 @@ textarea {
     background-repeat: no-repeat;
     background-size: contain;
     border-top-left-radius: 10%;
+    width:100%;
   }
 
   .contact-description {
@@ -583,7 +584,7 @@ textarea {
   }
 
   .contact-form-ls {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
