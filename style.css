@@ -405,7 +405,18 @@ textarea {
     font-size: 18px;
     margin-left: 85px;
   }
-
+  .rotation{
+    animation:rotate 2s linear forwards;
+  
+  }
+  @keyframes rotate{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(359deg);
+    }
+  }
   .intro {
     background-image: url(./images/desktop-img.png);
     background-repeat: no-repeat;
