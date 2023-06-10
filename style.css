@@ -202,6 +202,9 @@ main {
   margin-top: 40px;
   height: 48px;
   background-color: #ffff;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 .see-project:hover {
@@ -403,6 +406,20 @@ textarea {
     margin-left: 85px;
   }
 
+  .rotation {
+    animation: rotate 2s linear forwards;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(359deg);
+    }
+  }
+
   .intro {
     background-image: url(./images/desktop-img.png);
     background-repeat: no-repeat;
@@ -580,6 +597,12 @@ textarea {
     margin-right: auto;
     width: 50%;
     font-size: 20px;
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+
+  .contact-description:hover {
+    transform: translate(42px, 18px);
   }
 
   .contact-form-ls {
@@ -613,6 +636,12 @@ textarea {
 
   .desktop1 {
     display: inline;
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+
+  .desktop1:hover {
+    transform: scale(1.2);
   }
 
   .order {
