@@ -183,7 +183,7 @@ If you like this project support by giving a star ⭐️ ⭐️ ⭐️ ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse team and my coding partner Fatuma Hussein for collaborating with me to do the contact form section.
+I would like to thank the Microverse team and my coding partners Fatuma Hussein, Nelson and Eugene for collaborating with me to do the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -16,13 +16,17 @@
   <main>
     <header>
       <div class="nav">
+      <div class="brand-div">
         <a class="logo rotation" href="#">My logo</a>
-        <nav>
-          <a class="nav-link" href="#">Portfolio</a>
-          <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="#">Contact</a>
-          <img class="menu" src="./images/Icon - Menu.png" alt="Menu Icon">
+       <a href="#"> <img class="menu" src="./images/Icon - Menu.png" alt="Menu Icon"></a>
+      </div>
+        <nav class="nav-box">
+          <a class="close" href="#">X</a>
+          <a class="nav-link" href="#Portfolio">Portfolio</a>
+          <a class="nav-link" href="#About">About</a>
+          <a class="nav-link" href="#Contact">Contact</a>
         </nav>
+       
       </div>
     </header>
     <section class="intro">
@@ -55,9 +59,9 @@
       </div>
     </section>
 
-    <section class="works">
+    <section id="Portfolio" class="works">
 
-      <div class="projects">
+      <div class="projects" >
         <div>
           <img class="mobile1" src="./images/Snapshoot Portfolio.png" alt="Mobile1">
           <img class="desktop1" src="./images/desktop1.png" alt="">
@@ -186,7 +190,7 @@
 
     </section>
 
-    <section class="about white-background">
+    <section id="About" class="about white-background">
       <div class="new-div">
         <div class="first-heading white-background">
           <h2 class="white-background">About Myself</h2>
@@ -255,7 +259,7 @@
       </div>
 
     </section>
-    <form action="https://formspree.io/f/mdojqvjo" class="contact-form" method="POST">
+    <form action="https://formspree.io/f/mdojqvjo" id="Contact" class="contact-form" method="POST">
       <div class="contact-form-div">
         <h2 class="contact-form-title">Contact Me</h2>
         <p class="contact-description">If you have an application you are interested in developing, a feature that you
@@ -279,7 +283,7 @@
       </div>
     </form>
   </main>
-
+<script src="menu.js"></script>
 </body>
 
 </html>
