@@ -43,7 +43,7 @@ main {
   padding: 10%;
   mix-blend-mode: multiply;
   width: 100vw;
-  position: absolute;
+  position: fixed;
   font-style: normal;
   right: 0;
   height: 100vh;
@@ -442,7 +442,7 @@ textarea {
 
   .nav-box {
     width: fit-content;
-    position: fixed;
+    position: absolute;
     left: 75%;
     background: white;
     display: flex;
