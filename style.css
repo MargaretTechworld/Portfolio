@@ -502,8 +502,12 @@ textarea {
 .Pop-mobile-p {
   display: flex;
   margin-bottom: 10px;
-}
 
+}
+#error-message {
+  color: red;
+  margin-bottom: 40px;
+}
 @media screen and (min-width: 768px) {
   main {
     width: 100%;
