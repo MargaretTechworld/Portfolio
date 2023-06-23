@@ -273,7 +273,7 @@
               required />
           </li>
           <li class="contact-form-li">
-            <input class="contact-form-input " type="email" placeholder="loremipsum@gmail.com" name="email" required />
+            <input id="email-address"  class="contact-form-input " type="email" placeholder="loremipsum@gmail.com" name="email" required />
           </li>
           <li class="contact-form-li">
             <textarea type="text" placeholder="Write your message here" name="message" maxlength="500"
@@ -282,8 +282,13 @@
           <li>
             <input class="contact-button" type="submit" value="Get in touch" />
           </li>
+          <li id="error-message">
+          </li>
         </ul>
+        
       </div>
+     
+
     </form>
   </main>
 <script src="menu.js"></script>

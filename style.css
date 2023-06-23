@@ -370,6 +370,7 @@ main {
 
 .contact-form-li {
   margin-bottom: 20px;
+  align-items: center;
 }
 
 .contact-form-ls {
@@ -419,9 +420,14 @@ textarea {
   font-weight: 500;
   line-height: 24px;
   margin-top: 0;
-  margin-bottom: 44px;
+  margin-bottom: 10px;
   height: 48px;
   background-color: #ffff;
+}
+
+#error-message {
+  color: red;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -561,9 +567,11 @@ textarea {
     left: 53%;
     width: 45%;
   }
-.btn-div{
-   width: 53%;
-}
+
+  .btn-div {
+    width: 53%;
+  }
+
   .project-description {
     width: 53%;
     display: flex;
@@ -720,7 +728,7 @@ textarea {
   }
 
   .works-title {
-   width: 53%;;
+    width: 53%;
   }
 
   .mobileP {
@@ -733,7 +741,6 @@ textarea {
 
   .desktopP2 {
     display: block;
-  
   }
 
   .mobileP2 {
