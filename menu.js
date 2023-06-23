@@ -235,3 +235,19 @@ const template = `
   // });
 
 
+
+  // ---------------------FORM VALIDATION CODE----------------------
+document.getElementById('Contact').addEventListener('submit', (event) => {
+  // prevent default action
+
+  // get email input value.
+  const emailValue = document.getElementById('email-address').value;
+
+  // Check for email casing.
+  if (emailValue === emailValue.toLowerCase()) {
+    document.getElementById('error-message').innerHTML = 'form submitted succesfully';
+  } else {
+    document.getElementById('error-message').innerHTML = 'Email must be in lower case';
+    event.preventDefault();
+  }
+});
