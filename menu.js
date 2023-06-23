@@ -31,3 +31,28 @@ menu.querySelectorAll('a').forEach((link) => {
     window.scrollTo(0, link.offsetTop);
   });
 });
+
+const template = `
+<div class="inner-pop-up">
+<h1 class="works-title">TONIC</h1>
+<a class="popup-close" href="#">X</a>
+<p><span class="canopy">Canopy</span> <img class="Bullet-point" src="./images/Counter.png" alt="Counter">
+            <span class="dev"> Back End Dev
+              <img class="Bullet-point" src="./images/Counter.png" alt="Counter"> 2015</span>
+          </p>
+          <img class="popimg" src="./images/DesktopPop.png" alt="">
+          <p class="para-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          <br>
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.</p>
+          <div class="pop-side">
+          <ul class="white-background lan-ul">
+          <li class="languages">HTML</li>
+          <li class="rubby">rubby on Rails</li>
+          <li class="languages">CSS</li>
+          <li class="languages">JAVASCRIPT</li>
+        </ul>
+        <button class="see-project white-background">See Project</Button>
+        </div>
+
+          </div>
+`;
