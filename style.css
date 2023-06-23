@@ -424,6 +424,86 @@ textarea {
   background-color: #ffff;
 }
 
+.pop-up {
+  width: 100%;
+  height: 100vh;
+  background: gray;
+  position: fixed;
+  top: 0;
+  backdrop-filter: blur(20px);
+  mix-blend-mode: multiply;
+  padding-top: 5%;
+  z-index: 1;
+  display: none;
+}
+
+.pop-up.show {
+  display: flex;
+}
+
+.inner-pop-up {
+  width: 90%;
+  height: 100vh;
+  padding: 2%;
+  padding-bottom: 10%;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3%;
+  overflow: scroll;
+}
+
+.popimg {
+  width: 100%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popup-close {
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+}
+
+.popCloseLayout {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: baseline;
+}
+
+.layout-pop {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.img-btn-pop {
+  height: 20px;
+}
+
+.button-layout {
+  display: flex;
+  column-gap: 5px;
+}
+
+.popDeskImg {
+  display: none;
+}
+
+.popMobImg {
+  display: flex;
+}
+
+.Pop-desktop-p {
+  display: none;
+}
+
+.Pop-mobile-p {
+  display: flex;
+  margin-bottom: 10px;
+}
+
 @media screen and (min-width: 768px) {
   main {
     width: 100%;
@@ -561,9 +641,11 @@ textarea {
     left: 53%;
     width: 45%;
   }
-.btn-div{
-   width: 53%;
-}
+
+  .btn-div {
+    width: 53%;
+  }
+
   .project-description {
     width: 53%;
     display: flex;
@@ -720,7 +802,7 @@ textarea {
   }
 
   .works-title {
-   width: 53%;;
+    width: 53%;
   }
 
   .mobileP {
@@ -733,7 +815,6 @@ textarea {
 
   .desktopP2 {
     display: block;
-  
   }
 
   .mobileP2 {
@@ -748,50 +829,25 @@ textarea {
     display: block;
     width: 53%;
   }
-  .pop-up{
-    width: 100%;
-    height: 100vh;
-    background:gray;
-    position: fixed;
-    top: 0px;
-    backdrop-filter: blur(5px);
-    mix-blend-mode: multiply;
-    padding-top: 5%;
-    z-index: 1;
-    display: none;
 
+  .layout-pop {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
   }
-  .pop-up.show{
+
+  .popDeskImg {
+    display: block;
+  }
+
+  .popMobImg {
+    display: none;
+  }
+
+  .Pop-desktop-p {
     display: flex;
   }
-  .inner-pop-up{
-    width: 80%;
-    height: 100vh;
-    padding: 2%;
-    background: white;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 3%;
-  }
-  .popimg{
-    width: 100%;
-    height: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .popup-close{
-    text-decoration: none;
-    position: absolute;
-    font-size: 1rem;
-    left:85%;
-    top:15%
-  }
-  
-  .pop-side{
-    float: right;
-  }
-  .para-left{
-    float:left;
+
+  .Pop-mobile-p {
+    display: none;
   }
 }
-
