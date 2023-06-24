@@ -433,7 +433,7 @@ textarea {
   top: 0;
   backdrop-filter: blur(20px);
   mix-blend-mode: multiply;
-  padding-top: 5%;
+  padding: 2%;
   z-index: 1;
   display: none;
 }
@@ -443,7 +443,7 @@ textarea {
 }
 
 .inner-pop-up {
-  width: 90%;
+  width: 90vw;
   height: 100vh;
   padding: 2%;
   padding-bottom: 10%;
@@ -456,7 +456,6 @@ textarea {
 
 .popimg {
   width: 100%;
-  height: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -471,17 +470,17 @@ textarea {
 .popCloseLayout {
   display: flex;
   justify-content: space-between;
-  padding: 5px;
   align-items: baseline;
 }
 
 .layout-pop {
   display: grid;
   grid-template-columns: 1fr;
+  margin-top: 10%;
 }
 
 .img-btn-pop {
-  height: 20px;
+  height: 15px;
 }
 
 .button-layout {
@@ -495,6 +494,7 @@ textarea {
 
 .popMobImg {
   display: flex;
+  margin-top: 10%;
 }
 
 .Pop-desktop-p {
@@ -504,6 +504,53 @@ textarea {
 .Pop-mobile-p {
   display: flex;
   margin-bottom: 10px;
+  color: #344563;
+}
+
+.Popup-tech {
+  border: none;
+  color: #6070ff;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-left: 2%;
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+  padding: 4px 12px 4px 12px;
+}
+
+.pop-links-button {
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  color: #396df2;
+  font-size: 17px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  padding: 12px;
+  font-weight: 500;
+  margin-top: 40px;
+  height: 48px;
+  background-color: #ffff;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.pop-btn-link {
+  text-decoration: none;
+}
+
+.pop-links-button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.Popup-tech-desktop {
+  display: none;
 }
 
 #error-message {
@@ -843,11 +890,13 @@ textarea {
 
   .layout-pop {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1.2fr;
+    column-gap: 2%;
   }
 
   .popDeskImg {
     display: block;
+    margin-top: 5%;
   }
 
   .popMobImg {
@@ -856,9 +905,44 @@ textarea {
 
   .Pop-desktop-p {
     display: flex;
+    color: #344563;
   }
 
   .Pop-mobile-p {
     display: none;
+  }
+
+  .pop-links-button {
+    border: 1px solid #396df2;
+    border-radius: 8px;
+    color: #396df2;
+    font-size: 17px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 12px;
+    font-weight: 500;
+    margin-top: 40px;
+    height: fit-content;
+    width: 18vw;
+    background-color: #ffff;
+    transition-property: color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+  }
+
+  .Popup-tech-desktop {
+    border: none;
+    color: #6070ff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background: #ebebff;
+    border-radius: 8px;
+    margin-left: 2%;
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    padding: 4px 12px 4px 12px;
   }
 }
