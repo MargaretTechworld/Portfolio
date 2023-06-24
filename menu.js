@@ -121,7 +121,7 @@ function generateProjectSection() {
   </div>
   <div class="Project-div2">
     <h2 class="works-title desktoph2">${work.title}</h2>
-    <h2 class="works-title mobileh2"">${work.mobileTitle}</h2>
+    <h2 class="works-title mobileh2">${work.mobileTitle}</h2>
     <p class="desktopP"><span class="canopy">${work.subTitle}</span> <img class="Bullet-point" src="${work.image}" alt="Counter">
       <span class="dev"> ${work.work}
         <img class="Bullet-point" src="${work.image}" alt="Counter"> ${work.date}</span>
@@ -168,6 +168,8 @@ function generateProjectSection() {
   });
 }
 window.addEventListener('DOMContentLoaded', generateProjectSection);
+
+// ---------------POP UP--------------------------------------------------------
 
 // ---------------------FORM VALIDATION CODE---------------------
 document.getElementById('Contact').addEventListener('submit', (event) => {
