@@ -428,12 +428,12 @@ textarea {
 .pop-up {
   width: 100%;
   height: 100vh;
-  background: gray;
+  background: #C1C7D0;
   position: fixed;
   top: 0;
   backdrop-filter: blur(20px);
   mix-blend-mode: multiply;
-  padding: 2%;
+  padding: 4%;
   z-index: 1;
   display: none;
 }
@@ -443,11 +443,10 @@ textarea {
 }
 
 .inner-pop-up {
-  width: 90vw;
   height: 100vh;
-  padding: 2%;
+  padding: 5%;
   padding-bottom: 10%;
-  background: white;
+  background: #FFFFFF;
   margin-left: auto;
   margin-right: auto;
   border-radius: 3%;
@@ -462,8 +461,8 @@ textarea {
 
 .popup-close {
   text-decoration: none;
-  font-size: 1rem;
-  color: black;
+  font-size: 1.5rem;
+  color: #67798E;
   cursor: pointer;
 }
 
@@ -485,7 +484,9 @@ textarea {
 
 .button-layout {
   display: flex;
-  column-gap: 5px;
+  column-gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .popDeskImg {
@@ -532,7 +533,7 @@ textarea {
   justify-content: space-around;
   padding: 12px;
   font-weight: 500;
-  margin-top: 40px;
+  margin-top: 20px;
   height: 48px;
   background-color: #ffff;
   transition-property: color;
@@ -893,11 +894,14 @@ textarea {
     display: grid;
     grid-template-columns: 2fr 1.2fr;
     column-gap: 2%;
+    margin-top: 5%;
   }
 
   .popDeskImg {
     display: block;
     margin-top: 5%;
+    width: 100%;
+    height: 50vw;
   }
 
   .popMobImg {
@@ -914,22 +918,8 @@ textarea {
   }
 
   .pop-links-button {
-    border: 1px solid #396df2;
-    border-radius: 8px;
-    color: #396df2;
-    font-size: 17px;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-around;
     padding: 12px;
-    font-weight: 500;
-    margin-top: 40px;
-    height: fit-content;
-    width: 18vw;
-    background-color: #ffff;
-    transition-property: color;
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.3s;
+    
   }
 
   .Popup-tech-desktop {
@@ -944,6 +934,13 @@ textarea {
     display: inline-flex;
     flex-wrap: wrap;
     margin-bottom: 5%;
-    padding: 4px 12px 4px 12px;
+    padding: 5px;
   }
+  .pop-up{
+    padding-top: 3%;
+  }
+  .inner-pop-up{
+    height: 100vh;
+  }
+  
 }
