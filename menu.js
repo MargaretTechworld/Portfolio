@@ -46,8 +46,8 @@ const projects = [
     work: 'Back End Dev',
     mobileWork: 'Back End Dev',
     date: '2015',
-    livelinks: '/',
-    source: '/',
+    livelinks: 'https://margarettechworld.github.io/Portfolio/#',
+    source: 'https://github.com/MargaretTechworld/Portfolio',
     image: './images/Counter.png',
     technologies: ['Html', 'Css', 'Ruby on Rails', 'Javascript'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-up required.',
@@ -65,8 +65,8 @@ const projects = [
     work: 'Full Stack Dev',
     mobileWork: 'Back End Dev',
     date: '2015',
-    livelinks: '/',
-    source: '/',
+    livelinks: 'https://margarettechworld.github.io/Portfolio/#',
+    source: 'https://github.com/MargaretTechworld/Portfolio',
     image: './images/Counter.png',
     technologies: ['Html', 'Css', 'Ruby on Rails', 'Javascript'],
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
@@ -84,8 +84,8 @@ const projects = [
     work: 'Full Stack Dev',
     mobileWork: 'Back End Dev',
     date: '2015',
-    livelinks: '/',
-    source: '/',
+    livelinks: 'https://margarettechworld.github.io/Portfolio/#',
+    source: 'https://github.com/MargaretTechworld/Portfolio',
     image: './images/Counter.png',
     technologies: ['Html', 'Css', 'Ruby on Rails', 'Javascript'],
     description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
@@ -103,8 +103,8 @@ const projects = [
     work: 'Full Stack Dev',
     mobileWork: 'Back End Dev',
     date: '2015',
-    livelinks: '/',
-    source: '/',
+    livelinks: 'https://margarettechworld.github.io/Portfolio/#',
+    source: 'https://github.com/MargaretTechworld/Portfolio',
     image: './images/Counter.png',
     technologies: ['Html', 'Css', 'Ruby on Rails', 'Javascript'],
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
@@ -112,10 +112,22 @@ const projects = [
   },
 ];
 const projectContainer = document.querySelector('.works');
+const popUpDisplay = document.querySelector('.pop-up');
+
+const closePop = () => {
+  popUpDisplay.style.display = 'none';
+};
+const addClosePopupEvent = () => {
+  const closePopup = document.getElementById('closelink');
+  closePopup.addEventListener('click', () => {
+    closePop();
+  });
+};
+
 function generateProjectSection() {
-  const displayProject = projects.map((work) => `
+  const displayProject = projects.map((work, index) => `
   <div class="projects" >
-  <div>
+  <div class="${work.order}">
     <img class="desktop1" src="${work.featureImage}" alt="">
     <img class="mobile1" src="${work.mobileImage}" alt="">
   </div>
@@ -141,33 +153,79 @@ function generateProjectSection() {
       <li class="languages">${work.technologies[3]}</li>
     </ul>
     <div class="white-background btn-div">
-      <button id="${work.id}" class="see-project white-background">See Project</Button>
+      <button id="${index}" class="see-project white-background">See Project</Button>
     </div>
   </div>
   </div>
   `);
 
   projectContainer.innerHTML = displayProject;
+}
 
-  const popUpDisplay = document.querySelector('.pop-up');
+function displayProjectPopup(project) {
+  const div = document.createElement('div');
+  div.className = 'inner-pop-up';
+  div.innerHTML = `
+    <div class="popCloseLayout">
+    <h1 class="works-title desktoph2">${project.title}</h1>
+    <h1 class="works-title mobileh2">${project.mobileTitle}</h1>
+    <div id="closelink">
+    <p class="popup-close">X</p>
+    </div>
+    </div>
+    <p class="desktopP"><span class="canopy">${project.subTitle}</span> <img class="Bullet-point" src="${project.image}" alt="Counter">
+                <span class="dev"> ${project.work}
+                  <img class="Bullet-point" src="${project.image}" alt="Counter"> ${project.date}</span>
+              </p>
+    <p class="mobileP" ><span class="canopy">${project.mobileSubTitle}</span> <img class="Bullet-point" src="${project.image}" alt="Counter">
+                <span class="dev"> ${project.work}
+                  <img class="Bullet-point" src="${project.image}" alt="Counter"> ${project.date}</span>
+              </p>
+              <img class="popMobImg" src="${project.mobileImage}" alt="">
+              <img class="popimg popDeskImg" src="${project.featureImage}" alt="">
+              <div class="layout-pop">
+              <div>
+              <p class="Pop-desktop-p">${project.description}</p>
+              <p class="Pop-mobile-p">${project.mobileDescription}</p>
+            
+              </div>
+              <div>
+              <ul class="white-background lan-ul">
+              <li class="Popup-tech">${project.technologies[0]}</li>
+              <li class="Popup-tech">${project.technologies[1]}</li>
+              <li class="Popup-tech">${project.technologies[3]}</li>
+              <li class="Popup-tech-desktop">${project.technologies[2]}</li>
+              <li class="Popup-tech-desktop">Bootstrap</li>
+            </ul>
+            <div class="button-layout">
+              <a class="pop-btn-link" href="${project.livelinks}" ><button class="pop-links-button" white-background">See live <img class="img-btn-pop" src="./images/popButton1.png" alt="button-symbol" srcset=""></Button></a>
+               <a class="pop-btn-link" href="${project.source}" ><button class="pop-links-button" white-background">See Project <img class="img-btn-pop" src="./images/popButton2.svg" alt="button-symbol" srcset=""></Button></a>
+            </div>
+            
+            </div>
+          </div>
+    
+      `;
 
+  return div;
+}
+
+function addProjectButtonEvent() {
   const projectButton = document.querySelectorAll('.see-project');
   projectButton.forEach((btn) => {
     btn.addEventListener('click', () => {
+      popUpDisplay.innerHTML = '';
+      popUpDisplay.append(displayProjectPopup(projects[btn.id]));
       popUpDisplay.style.display = 'flex';
+      addClosePopupEvent();
     });
   });
-
-  const closePop = () => {
-    popUpDisplay.style.display = 'none';
-  };
-
-  const closePopup = document.getElementById('closelink');
-  closePopup.addEventListener('click', () => {
-    closePop();
-  });
 }
-window.addEventListener('DOMContentLoaded', generateProjectSection);
+
+window.addEventListener('DOMContentLoaded', () => {
+  generateProjectSection();
+  addProjectButtonEvent();
+});
 
 // ---------------POP UP--------------------------------------------------------
 
