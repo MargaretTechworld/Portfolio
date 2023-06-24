@@ -127,7 +127,7 @@ const addClosePopupEvent = () => {
 function generateProjectSection() {
   const displayProject = projects.map((work, index) => `
   <div class="projects" >
-  <div class="${work.order}">
+  <div class="${work.order1}">
     <img class="desktop1" src="${work.featureImage}" alt="">
     <img class="mobile1" src="${work.mobileImage}" alt="">
   </div>
@@ -198,8 +198,8 @@ function displayProjectPopup(project) {
               <li class="Popup-tech-desktop">Bootstrap</li>
             </ul>
             <div class="button-layout">
-              <a class="pop-btn-link" href="${project.livelinks}" ><button class="pop-links-button" white-background">See live <img class="img-btn-pop" src="./images/popButton1.png" alt="button-symbol" srcset=""></Button></a>
-               <a class="pop-btn-link" href="${project.source}" ><button class="pop-links-button" white-background">See Project <img class="img-btn-pop" src="./images/popButton2.svg" alt="button-symbol" srcset=""></Button></a>
+              <a class="pop-btn-link" href="${project.livelinks}" ><button class="pop-links-button" white-background">See live <img class="img-btn-pop" src="./images/popButton2.svg" alt="button-symbol" srcset=""></Button></a>
+               <a class="pop-btn-link" href="${project.source}" ><button class="pop-links-button" white-background">See Project <img class="img-btn-pop" src="./images/popButton1.png" alt="button-symbol" srcset=""></Button></a>
             </div>
             
             </div>
