@@ -455,7 +455,7 @@ textarea {
 }
 
 .popimg {
-  width: 100%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -659,6 +659,7 @@ textarea {
 
   /* projects */
   .projects {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
@@ -851,7 +852,7 @@ textarea {
   }
 
   .order1 {
-    order: 0;
+    order: 1;
   }
 
   .languages {
