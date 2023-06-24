@@ -33,6 +33,7 @@ menu.querySelectorAll('a').forEach((link) => {
 });
 
 
+
 // --------------------GENERATE PROJECT SECTION-----------------------------------
 const projects = [
   {
@@ -234,9 +235,7 @@ const template = `
   //   });
   // });
 
-
-
-  // ---------------------FORM VALIDATION CODE----------------------
+// ---------------------FORM VALIDATION CODE---------------------
 document.getElementById('Contact').addEventListener('submit', (event) => {
   // prevent default action
 

@@ -370,6 +370,7 @@ main {
 
 .contact-form-li {
   margin-bottom: 20px;
+  align-items: center;
 }
 
 .contact-form-ls {
@@ -419,7 +420,7 @@ textarea {
   font-weight: 500;
   line-height: 24px;
   margin-top: 0;
-  margin-bottom: 44px;
+  margin-bottom: 10px;
   height: 48px;
   background-color: #ffff;
 }
@@ -504,10 +505,12 @@ textarea {
   margin-bottom: 10px;
 
 }
+
 #error-message {
   color: red;
   margin-bottom: 40px;
 }
+
 @media screen and (min-width: 768px) {
   main {
     width: 100%;
