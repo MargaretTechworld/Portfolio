@@ -465,6 +465,7 @@ textarea {
   text-decoration: none;
   font-size: 1rem;
   color: black;
+  cursor: pointer;
 }
 
 .popCloseLayout {
@@ -503,7 +504,6 @@ textarea {
 .Pop-mobile-p {
   display: flex;
   margin-bottom: 10px;
-
 }
 
 #error-message {
@@ -801,6 +801,10 @@ textarea {
 
   .order {
     order: 2;
+  }
+
+  .order1 {
+    order: 0;
   }
 
   .languages {
